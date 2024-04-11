@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family :"Nunito Sans", sans-serif ;
+}
+/** Header Section **/
+.main_section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+.main_section .image{
+    width: 60%;
+}
+.main_section  .heading h1{
+    font-size: 60px;
+ text-align: center;
+}
+.main_section .image img{
+    width: 100%;
+    border: 10px solid orange;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.671);
+}
+
+/**card */
+.card{
+    background-color: aliceblue;
+    margin-top: 50px;
+    /* display: flex; */
+    text-align: center;
+    padding: 40px;
+}
+.card .about{
+    width: 50%;
+    margin: 20px auto;
+}
+.card .about p{
+    color: brown;
+}
+
+ .card .card_image img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid gray;
+    /* position: absolute;
+    align-self: center; */
+    
+ }
+
+ .maps h1{
+    text-align: center;
+    margin: 80px auto;
+    color: green;
+    font-weight: 800;
+    font-size: 50px;
+ }
+ .maps .maps_frame{
+    width: 80%;
+    margin: auto;
+ }
+.maps .maps_frame iframe{
+       width: 100%;
+      
+ }
+
+@media screen and (max-width:1200px) {
+    .card .about {
+        width: 80%;
+       
+    }
+    
+}
+
+@media screen and (max-width:850px) {
+    .main_section .image{
+        width: 60%;
+}
+}
+@media screen and (max-width:554px) {
+    .main_section  .heading h1{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width:400px) {
+    .main_section .image{
+        width: 80%;
+}
+}
